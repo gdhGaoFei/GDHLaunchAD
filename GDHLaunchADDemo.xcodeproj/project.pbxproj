@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		886024571E36EE5500ADCBF1 /* UIImageView+GDHWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 886024561E36EE5500ADCBF1 /* UIImageView+GDHWebCache.m */; };
-		886024621E36F20900ADCBF1 /* GDHLKEnDe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8860245A1E36F20900ADCBF1 /* GDHLKEnDe.m */; };
-		886024631E36F20900ADCBF1 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8860245D1E36F20900ADCBF1 /* NSData+Base64.m */; };
-		886024641E36F20900ADCBF1 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8860245F1E36F20900ADCBF1 /* NSData+CommonCrypto.m */; };
-		886024651E36F20900ADCBF1 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 886024611E36F20900ADCBF1 /* NSString+Base64.m */; };
-		886024691E36F8C600ADCBF1 /* GDHLKiPhoneInformationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 886024681E36F8C600ADCBF1 /* GDHLKiPhoneInformationObject.m */; };
 		A62F8FDB1E35FFA6008C2078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A62F8FDA1E35FFA6008C2078 /* main.m */; };
 		A62F8FDE1E35FFA6008C2078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A62F8FDD1E35FFA6008C2078 /* AppDelegate.m */; };
 		A62F8FE11E35FFA6008C2078 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62F8FE01E35FFA6008C2078 /* ViewController.m */; };
@@ -25,6 +20,11 @@
 		A6ABD2E91E373D5E00CC23CE /* GDHLaunchADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ABD2E81E373D5E00CC23CE /* GDHLaunchADViewController.m */; };
 		A6ABD2EC1E374AD400CC23CE /* HomeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ABD2EB1E374AD400CC23CE /* HomeWebViewController.m */; };
 		A6ABD2EF1E374B6400CC23CE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6ABD2EE1E374B6400CC23CE /* WebKit.framework */; };
+		A6E98AC51E38484100BF262F /* GDHLKEnDe.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E98ABB1E38484100BF262F /* GDHLKEnDe.m */; };
+		A6E98AC61E38484100BF262F /* GDHLKiPhoneInformationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E98ABE1E38484100BF262F /* GDHLKiPhoneInformationObject.m */; };
+		A6E98AC71E38484100BF262F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E98AC01E38484100BF262F /* NSData+Base64.m */; };
+		A6E98AC81E38484100BF262F /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E98AC21E38484100BF262F /* NSData+CommonCrypto.m */; };
+		A6E98AC91E38484100BF262F /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E98AC41E38484100BF262F /* NSString+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,17 +47,6 @@
 /* Begin PBXFileReference section */
 		886024551E36EE5500ADCBF1 /* UIImageView+GDHWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GDHWebCache.h"; sourceTree = "<group>"; };
 		886024561E36EE5500ADCBF1 /* UIImageView+GDHWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GDHWebCache.m"; sourceTree = "<group>"; };
-		886024591E36F20900ADCBF1 /* GDHLKEnDe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKEnDe.h; sourceTree = "<group>"; };
-		8860245A1E36F20900ADCBF1 /* GDHLKEnDe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHLKEnDe.m; sourceTree = "<group>"; };
-		8860245B1E36F20900ADCBF1 /* GDHLKEnDeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKEnDeHeader.h; sourceTree = "<group>"; };
-		8860245C1E36F20900ADCBF1 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		8860245D1E36F20900ADCBF1 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		8860245E1E36F20900ADCBF1 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
-		8860245F1E36F20900ADCBF1 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
-		886024601E36F20900ADCBF1 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
-		886024611E36F20900ADCBF1 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
-		886024671E36F8C600ADCBF1 /* GDHLKiPhoneInformationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKiPhoneInformationObject.h; sourceTree = "<group>"; };
-		886024681E36F8C600ADCBF1 /* GDHLKiPhoneInformationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHLKiPhoneInformationObject.m; sourceTree = "<group>"; };
 		A62F8FD61E35FFA6008C2078 /* GDHLaunchADDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDHLaunchADDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62F8FDA1E35FFA6008C2078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A62F8FDC1E35FFA6008C2078 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +70,17 @@
 		A6ABD2EA1E374AD400CC23CE /* HomeWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeWebViewController.h; sourceTree = "<group>"; };
 		A6ABD2EB1E374AD400CC23CE /* HomeWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeWebViewController.m; sourceTree = "<group>"; };
 		A6ABD2EE1E374B6400CC23CE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A6E98ABA1E38484100BF262F /* GDHLKEnDe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKEnDe.h; sourceTree = "<group>"; };
+		A6E98ABB1E38484100BF262F /* GDHLKEnDe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHLKEnDe.m; sourceTree = "<group>"; };
+		A6E98ABC1E38484100BF262F /* GDHLKEnDeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKEnDeHeader.h; sourceTree = "<group>"; };
+		A6E98ABD1E38484100BF262F /* GDHLKiPhoneInformationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHLKiPhoneInformationObject.h; sourceTree = "<group>"; };
+		A6E98ABE1E38484100BF262F /* GDHLKiPhoneInformationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHLKiPhoneInformationObject.m; sourceTree = "<group>"; };
+		A6E98ABF1E38484100BF262F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A6E98AC01E38484100BF262F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		A6E98AC11E38484100BF262F /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		A6E98AC21E38484100BF262F /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		A6E98AC31E38484100BF262F /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		A6E98AC41E38484100BF262F /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,31 +109,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		886024581E36F20900ADCBF1 /* 加密解密 */ = {
-			isa = PBXGroup;
-			children = (
-				886024591E36F20900ADCBF1 /* GDHLKEnDe.h */,
-				8860245A1E36F20900ADCBF1 /* GDHLKEnDe.m */,
-				8860245B1E36F20900ADCBF1 /* GDHLKEnDeHeader.h */,
-				8860245C1E36F20900ADCBF1 /* NSData+Base64.h */,
-				8860245D1E36F20900ADCBF1 /* NSData+Base64.m */,
-				8860245E1E36F20900ADCBF1 /* NSData+CommonCrypto.h */,
-				8860245F1E36F20900ADCBF1 /* NSData+CommonCrypto.m */,
-				886024601E36F20900ADCBF1 /* NSString+Base64.h */,
-				886024611E36F20900ADCBF1 /* NSString+Base64.m */,
-			);
-			path = "加密解密";
-			sourceTree = "<group>";
-		};
-		886024661E36F8C600ADCBF1 /* 获取手机信息及当前APP信息 */ = {
-			isa = PBXGroup;
-			children = (
-				886024671E36F8C600ADCBF1 /* GDHLKiPhoneInformationObject.h */,
-				886024681E36F8C600ADCBF1 /* GDHLKiPhoneInformationObject.m */,
-			);
-			path = "获取手机信息及当前APP信息";
-			sourceTree = "<group>";
-		};
 		A62F8FCD1E35FFA6008C2078 = {
 			isa = PBXGroup;
 			children = (
@@ -203,8 +178,17 @@
 		A62F900C1E35FFE9008C2078 /* GDHLaunchAD */ = {
 			isa = PBXGroup;
 			children = (
-				886024661E36F8C600ADCBF1 /* 获取手机信息及当前APP信息 */,
-				886024581E36F20900ADCBF1 /* 加密解密 */,
+				A6E98ABA1E38484100BF262F /* GDHLKEnDe.h */,
+				A6E98ABB1E38484100BF262F /* GDHLKEnDe.m */,
+				A6E98ABC1E38484100BF262F /* GDHLKEnDeHeader.h */,
+				A6E98ABD1E38484100BF262F /* GDHLKiPhoneInformationObject.h */,
+				A6E98ABE1E38484100BF262F /* GDHLKiPhoneInformationObject.m */,
+				A6E98ABF1E38484100BF262F /* NSData+Base64.h */,
+				A6E98AC01E38484100BF262F /* NSData+Base64.m */,
+				A6E98AC11E38484100BF262F /* NSData+CommonCrypto.h */,
+				A6E98AC21E38484100BF262F /* NSData+CommonCrypto.m */,
+				A6E98AC31E38484100BF262F /* NSString+Base64.h */,
+				A6E98AC41E38484100BF262F /* NSString+Base64.m */,
 				A62F900D1E360053008C2078 /* GDHLaunchAD.h */,
 				A62F900E1E360053008C2078 /* GDHLaunchAD.m */,
 				886024551E36EE5500ADCBF1 /* UIImageView+GDHWebCache.h */,
@@ -360,16 +344,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E98AC91E38484100BF262F /* NSString+Base64.m in Sources */,
+				A6E98AC61E38484100BF262F /* GDHLKiPhoneInformationObject.m in Sources */,
 				A6ABD2EC1E374AD400CC23CE /* HomeWebViewController.m in Sources */,
-				886024651E36F20900ADCBF1 /* NSString+Base64.m in Sources */,
-				886024641E36F20900ADCBF1 /* NSData+CommonCrypto.m in Sources */,
-				886024621E36F20900ADCBF1 /* GDHLKEnDe.m in Sources */,
+				A6E98AC81E38484100BF262F /* NSData+CommonCrypto.m in Sources */,
 				A6ABD2E91E373D5E00CC23CE /* GDHLaunchADViewController.m in Sources */,
 				886024571E36EE5500ADCBF1 /* UIImageView+GDHWebCache.m in Sources */,
 				A62F8FE11E35FFA6008C2078 /* ViewController.m in Sources */,
-				886024631E36F20900ADCBF1 /* NSData+Base64.m in Sources */,
+				A6E98AC51E38484100BF262F /* GDHLKEnDe.m in Sources */,
 				A62F8FDE1E35FFA6008C2078 /* AppDelegate.m in Sources */,
-				886024691E36F8C600ADCBF1 /* GDHLKiPhoneInformationObject.m in Sources */,
+				A6E98AC71E38484100BF262F /* NSData+Base64.m in Sources */,
 				A62F8FDB1E35FFA6008C2078 /* main.m in Sources */,
 				A62F900F1E360053008C2078 /* GDHLaunchAD.m in Sources */,
 			);
