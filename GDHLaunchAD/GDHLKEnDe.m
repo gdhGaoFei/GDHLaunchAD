@@ -8,9 +8,8 @@
 
 #import "GDHLKEnDe.h"
 #import <CommonCrypto/CommonDigest.h>
-#import "NSData+Base64.h"
+#import "NSData+GDHBaseData64.h"
 #import "NSString+Base64.h"
-#import "NSData+CommonCrypto.h"
 #import <Security/Security.h>
 
 @interface GDHLKEnDe ()

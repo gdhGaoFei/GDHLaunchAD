@@ -7,7 +7,7 @@
 //
 
 #import "NSString+Base64.h"
-#import "NSData+Base64.h"
+#import "NSData+GDHBaseData64.h"
 
 static char base64EncodingTable[64] = {
   'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',
